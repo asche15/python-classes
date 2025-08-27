@@ -6,7 +6,7 @@ class SuperHero:
         self.custom_color = custom_color
         self.nemesis = nemesis
         self.special_abilities = special_abilities
-        self.__secret_mission = None  # Private attribute
+        self.__secret_mission = None 
 
     def fight_crime(self):
         if self.power_level > 85:
@@ -47,7 +47,6 @@ class OtherTwin(SuperHero):
         self.set_secret_mission("Rob a house... or maybe just rob bugs from your code 🕵️‍♂️")
 
 
-# Example usage
 codeman = SuperHero(
     name="CodeMan",
     real_name="Aschalew",
